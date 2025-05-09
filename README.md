@@ -60,3 +60,18 @@ Traditional event management is time-consuming and often lacks coordination. Man
 - Express.js
 - JWT Authentication
 
+  💳 Payment Gateway (Dummy)
+As part of the payment workflow for ticketed events, we have implemented a dummy payment gateway to simulate real-world payment interactions.
+
+Features of the dummy gateway:
+
+Mimics the behavior of a real payment processor.
+
+Accepts fake payment details to simulate transactions.
+
+Designed for testing UI flow and success/error states.
+
+Prepares the system for future integration with real gateways like Razorpay, Stripe, or PayPal.
+
+This simulation enables seamless development and testing of booking flows involving payments, without involving actual financial transactions.
+
